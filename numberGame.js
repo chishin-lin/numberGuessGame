@@ -7,7 +7,7 @@ while (true) {
   let guess = prompt(
     `Make your guess:(the Number is between : ${n1} ~ ${n2}).`
   );
-  //超過99或小於0就提釋字窗，並繼續執行此迴圈(使用continue)
+  //超過99或小於0就提示字窗，並繼續執行此迴圈(使用continue)
   if (guess < n1 || guess > n2) {
     alert("Please make a valid input.");
     continue;
